@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semibold';
+    src: url('/surface/Assets/css/fonts/all/semibold/seguisb.eot');
+    src: url('/surface/Assets/css/fonts/all/semibold/seguisb.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/semibold/seguisb.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/semibold/seguisb.svg#SegoeUISemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('/surface/Assets/css/fonts/all/bold/segoeuib.eot');
+    src: url('/surface/Assets/css/fonts/all/bold/segoeuib.eot?#iefix') format('eot'), /* Wrong format will tell IE9+ to ignore and use WOFF instead. MSHAR-2822 */
+         url('/surface/Assets/css/fonts/all/bold/segoeuib.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/bold/segoeuib.svg#SegoeUIBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot');
+    src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/light/segoeuil.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/light/segoeuil.svg#SegoeUILight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mt-5, .my-5, .ml-5, .mr-5, .mx-5 {
+  margin-top: 15rem!important;
+  margin-left: 15rem!important;
+  margin-right: 28rem!important;
+}
+
+.pt-5, .py-5 {
+  padding-top: 15rem!important;
+}
+
+.pt-4, .py-4 {
+    padding-top: 2.5rem!important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 14.5rem!important;
+}
+
+.mt-3, .my-3 {
+    margin-top: 4rem!important;
+}
+
+.mb-5 {
+  margin-bottom: 1rem!important;
+}
+
+body {
+  font-family: "Segoe UI Light";
+  width: 1920px;
+  height: 4676px;
+}
+
+header {
+  background-color: rgba(51, 51, 102);
+  background-image: url("images/background/bg-img02.jpg");
+  width: 1920px;
+  height: 799px;
+  background-size: cover;
+}
+
+main {
+  width: 1920px;
+  height: 404px;
+  background-color: rgba(75, 202, 255);
+}
+
+mark {
+  background-color: rgba(53, 63, 70, .85);
+}
+
+p {
+  font-size: 12px;
+}
+
+figure {
+  height: 269px;
+}
+
+input.transparent-input{
+       background-color: transparent!important;
+       border: 1px solid white;
+       border-radius: 0px;
+    }
+
+textarea {
+  background-color: transparent!important;
+  border-radius: 0px;
+}
+textarea[type="text"] {
+  color:white;
+}
+
+input[type=text] {
+  color: white;
+}
+
+img:hover .overlay {
+  opacity: 1;
+}
+
+#border-bottom-services {
+  border-bottom: 2px solid white;
+}
+
+#border-bottom-portfolio {
+  border-bottom: 2px solid rgba(81, 95, 103);
+}
+
+#border-bottom-section {
+  border-bottom: 2px solid white;
+}
+
+#just-default-section {
+  background-color: rgba(81, 95, 103);
+  width: 1920px;
+  height: 471px;
+}
+
+#vimeo-video {
+  bottom: 2rem;
+}
+
+#twitter-section {
+  background-color: rgba(75, 202, 255);
+  width: 1920px;
+  height: 303px;
+}
+
+#twitter-icon {
+  bottom: 3rem;
+}
+
+#border-bottom-twitter {
+  border-bottom: 2px solid white;
+}
+
+#bg-johndoe {
+  background-image: url("images/background/bg-johndoe.jpg");
+  width: 1920px;
+  height: 503px;
+}
+
+#border-bottom-johndoe {
+  border-bottom: 2px solid white;
+}
+
+#testimonials {
+  width: 1920px;
+  height: 362px;
+}
+
+#border-bottom-testimonials {
+  border-bottom: 2px solid rgba(81, 95, 103);
+}
+
+#guillemets-icon {
+  bottom: 2rem;
+}
+
+#contact {
+  background-image: url("images/background/bg-contact.jpg");
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 814px;
+}
+
+#border-bottom-contact {
+  border-bottom: 2px solid white;
+}
+
+#footer {
+  background-color: rgba(53, 63, 71);
+  width: 1920px;
+  height: 215px;
+}
+
+.navbar {
+  background-color: rgba(53, 63, 70, .85);
+  height: 155px;
+}
+
+.blueasy {
+  font-family: "Segoe UI Bold", sans-serif;
+}
+
+.container {
+  font-family: "Segoe UI Light";
+}
+
+.size-text2 {
+  font-size: 14px;
+}
+
+.size-text3 {
+  font-size: 27px;
+}
+
+.size-text4 {
+  font-size: 14px;
+  margin-left: 6rem;
+}
+
+.btn {
+  max-width: 25.67%;
+}
+
+.border-img {
+  padding: 15px;
+  border: 1px solid;
+  border-color: white;
+}
+
+.bdr-right {
+  border-right: 1px solid grey;
+}
+
+.padding-left {
+  padding-left: 2.5rem;
+}
+
+.gallery-img {
+  opacity: 0.7;
+}
+
+.text2 {
+  border: 1px solid rgba(75, 202, 255);
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+
+}
