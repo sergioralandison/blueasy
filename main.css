@@ -106,6 +106,7 @@ textarea {
   background-color: transparent!important;
   border-radius: 0px;
 }
+
 textarea[type="text"] {
   color:white;
 }
@@ -242,17 +243,6 @@ img:hover .overlay {
   opacity: 0.7;
 }
 
-.text2 {
-  border: 1px solid rgba(75, 202, 255);
-}
-
-.overlay {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  transition: .5s ease;
-
+.col-7 {
+  font-weight: 700;
 }

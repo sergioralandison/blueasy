@@ -22,7 +22,7 @@
 							<h1 class="col-7">
 								BLU<span class="text-info blueasy">E</span>ASY
 							</h1>
-							<div class="col-1 text-info text2 text-center">
+							<div class="col-1">
 								HOME
 							</div>
 							<div class="col-1">
@@ -112,7 +112,7 @@
 
 						<!--Filters-->
 
-						<div class="col-auto text-info text-center text2">
+						<div class="col-auto">
 							ALL
 						</div>
 						<div class="col-auto">
